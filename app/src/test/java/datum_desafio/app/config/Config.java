@@ -1,10 +1,8 @@
-package datum_desafio.app.steps;
+package datum_desafio.app.config;
 
 import io.cucumber.java.Before;
 import io.restassured.RestAssured;
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.builder.ResponseSpecBuilder;
-import io.restassured.http.ContentType;
+
 
 public class Config {
 
