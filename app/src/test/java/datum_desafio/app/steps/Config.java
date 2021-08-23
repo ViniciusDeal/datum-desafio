@@ -15,13 +15,13 @@ public class Config {
         RestAssured.baseURI = "https://reqres.in";
         RestAssured.basePath = "/api";
 
-        RestAssured.requestSpecification = new RequestSpecBuilder().
-                setContentType(ContentType.JSON).
+        /*RestAssured.requestSpecification = new RequestSpecBuilder().
+                setContentType(ContentType.TEXT).
                 build();
 
         RestAssured.responseSpecification = new ResponseSpecBuilder().
-                expectContentType(ContentType.JSON).
-                build();
+                expectContentType(ContentType.TEXT).
+                build();*/
 
     }
 }

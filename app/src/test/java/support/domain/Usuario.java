@@ -10,5 +10,5 @@ public class Usuario {
     @Builder.Default
     private String name = "usuario_teste";
     @Builder.Default
-    private String job = "dev";
+    private String job = "qa";
 }

@@ -5,4 +5,6 @@
 
     Cenario: Gerenciamento de usuarios
       Quando crio um usuario
-      Entao os usuario sao retornados
+      E os usuarios sao retornados
+      Entao atualizo o usuario criado
+      E deleto o usuario
